@@ -1,0 +1,98 @@
+[
+  {
+    "query": "i have pain in my elbow and stomach",
+    "symptoms": [
+      "elbow pain",
+      "stomach ache",
+      "joint pain"
+    ],
+    "predictions": [
+      {
+        "condition": "Medication Side Effect (e.g., NSAID-induced Gastritis)",
+        "confidence": 0.8,
+        "supporting_symptoms": [
+          "elbow pain",
+          "stomach ache",
+          "joint pain"
+        ],
+        "explanation": "Non-steroidal anti-inflammatory drugs (NSAIDs) like ibuprofen or naproxen are very commonly used to treat joint pain, such as the pain in your elbow. A frequent side effect of these medications is irritation of the stomach lining, which can cause gastritis or a general stomach ache. This hypothesis suggests the stomach ache may be a direct result of medication taken to manage the elbow and joint pain, providing a clear link between the two symptoms.",
+        "care": "If taking over-the-counter pain relievers, always take them with food and a full glass of water. Avoid lying down for 15-30 minutes after taking them.",
+        "doctor_advice": "Consult a doctor or pharmacist before continuing NSAID use if you have stomach pain. Seek immediate medical attention if the stomach pain is severe, or if you notice blood in your vomit or dark, tarry stools. A primary care physician or a gastroenterologist can help manage these symptoms."
+      },
+      {
+        "condition": "Systemic Viral Illness",
+        "confidence": 0.6,
+        "supporting_symptoms": [
+          "elbow pain",
+          "stomach ache",
+          "joint pain"
+        ],
+        "explanation": "Many common viral infections, such as influenza or an enterovirus, can affect the entire body. These illnesses often cause systemic inflammation, which can manifest as aches and pains in various joints, including the elbow. The gastrointestinal system is also frequently affected by these viruses, leading to symptoms like a stomach ache, nausea, or diarrhea. In this scenario, both the joint pain and stomach ache are symptoms of a single, temporary infection.",
+        "care": "Focus on rest and staying hydrated by drinking plenty of clear fluids like water or broth. For stomach discomfort, try eating small, bland meals (e.g., toast, rice, bananas).",
+        "doctor_advice": "Seek medical advice if you have a high fever, are unable to keep fluids down, or if your symptoms do not begin to improve after several days. A primary care physician can provide an evaluation."
+      },
+      {
+        "condition": "Inflammatory Arthritis (e.g., Enteropathic Arthritis)",
+        "confidence": 0.3,
+        "supporting_symptoms": [
+          "elbow pain",
+          "stomach ache",
+          "joint pain"
+        ],
+        "explanation": "Certain chronic inflammatory conditions, such as Inflammatory Bowel Disease (IBD), primarily affect the gastrointestinal tract, causing symptoms like a stomach ache. These conditions can also cause inflammation in other parts of the body, a complication known as an 'extra-intestinal manifestation.' Enteropathic arthritis is a form of arthritis associated with IBD that causes pain and swelling in joints, which could explain the elbow and general joint pain. This represents a single underlying chronic condition causing both sets of symptoms.",
+        "care": "Keep a detailed diary to track your symptoms, noting the timing and severity of both the stomach ache and joint pain, as well as any potential food triggers. An anti-inflammatory diet may be beneficial for some individuals.",
+        "doctor_advice": "If your symptoms are persistent, recurrent, or worsening over weeks or months, it is important to see a doctor. A primary care physician can provide an initial assessment and may refer you to a gastroenterologist and/or a rheumatologist for specialized care."
+      }
+    ],
+    "specialists": [
+      "General Physician",
+      "Orthopedic Specialist",
+      "Gastroenterologist"
+    ],
+    "location": "Mumbai, India",
+    "timestamp": "2025-11-15T11:37:14.809381"
+  },
+  {
+    "query": "i have flu",
+    "symptoms": [
+      "fever"
+    ],
+    "predictions": [
+      {
+        "condition": "Viral Upper Respiratory Infection (e.g., Influenza)",
+        "confidence": 0.8,
+        "supporting_symptoms": [
+          "fever"
+        ],
+        "explanation": "Fever is a classic sign of a viral infection, such as influenza (the flu) or the common cold. It is a natural response of the body's immune system as it works to fight off the invading virus. In influenza, the fever is often sudden and accompanied by other symptoms like body aches, headache, and cough, though fever can be the initial or sole presenting symptom. The user's statement about having the 'flu' aligns with this, but fever alone is a very common and non-specific symptom.",
+        "care": "Get plenty of rest and stay well-hydrated with water, broth, or electrolyte drinks. Over-the-counter fever reducers like acetaminophen or ibuprofen can be used as directed to manage comfort.",
+        "doctor_advice": "Consult a primary care physician or visit an urgent care clinic if your fever is very high (e.g., over 103\u00b0F or 39.4\u00b0C), lasts more than 3-4 days, or is accompanied by shortness of breath, chest pain, or severe weakness."
+      },
+      {
+        "condition": "COVID-19",
+        "confidence": 0.7,
+        "supporting_symptoms": [
+          "fever"
+        ],
+        "explanation": "Fever is one of the most common symptoms of COVID-19, caused by the SARS-CoV-2 virus. The body elevates its temperature to create a less hospitable environment for the virus to replicate. Because COVID-19 is highly contagious and presents with a wide range of symptoms, any new onset of fever should prompt consideration of this diagnosis. Other common symptoms may include cough, fatigue, and loss of taste or smell, but are not always present.",
+        "care": "It is recommended to isolate to prevent potential spread to others. Monitor your symptoms, stay hydrated, and rest.",
+        "doctor_advice": "Contact a healthcare provider or a local public health authority for guidance on testing. Seek immediate medical attention for symptoms like difficulty breathing, persistent chest pain or pressure, new confusion, or pale, gray, or blue-colored skin, lips, or nail beds."
+      },
+      {
+        "condition": "Bacterial Infection (e.g., Strep Throat, UTI)",
+        "confidence": 0.5,
+        "supporting_symptoms": [
+          "fever"
+        ],
+        "explanation": "Fever is a common systemic response to a localized or widespread bacterial infection. For example, a bacterial infection in the throat (strep throat) or the urinary tract (UTI) can cause the immune system to trigger a fever. While viral infections are a more frequent cause of fever overall, a bacterial source is an important consideration, especially if the fever is high, persistent, or associated with specific localized symptoms like a severe sore throat or pain during urination.",
+        "care": "Rest and fluid intake are important for any illness with a fever. Specific home care depends on the location of the potential infection (e.g., warm salt-water gargles for a sore throat).",
+        "doctor_advice": "See a primary care physician or visit an urgent care clinic, as bacterial infections often require antibiotics. You should seek care if the fever persists, is very high, or if you develop other concerning symptoms like a severe sore throat, rash, painful urination, or shaking chills."
+      }
+    ],
+    "specialists": [
+      "General Physician"
+    ],
+    "location": "Mumbai, India",
+    "timestamp": "2025-11-15T11:38:02.257505"
+  }
+]
